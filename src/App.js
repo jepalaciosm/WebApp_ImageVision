@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <h1>Title</h1>
+      <h1>Image Vision John Palacios</h1>
       <input type="text" value={imageUrl} onChange={handleImageUrlChange} placeholder="Enter image URL" />
       <input type="text" value={prompt} onChange={handlePromptChange} placeholder="Enter prompt" />
       <button onClick={handleImageAnalysis}>Analyze Image</button>
